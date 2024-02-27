@@ -16,7 +16,7 @@ public class MenuManager : MonoBehaviour
     }
 
     public void LoadFirstLevel(){
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("World 1");
     }
 
     void LoadScore(){

@@ -8,11 +8,11 @@ using UnityEngine.UI;
 public class GameOverManager : MonoBehaviour
 {
     public void LoadFirstLevel(){
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("World 1");
     } 
 
     public void LoadMenu(){
-        SceneManager.LoadScene("tittleScreen");
+        SceneManager.LoadScene("Main Scren");
     }
     // Start is called before the first frame update
     void Start()
